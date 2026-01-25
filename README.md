@@ -1,1 +1,1 @@
-![Project Presentation](presentations.gif)
+![Project Presentation](presentation.gif)
