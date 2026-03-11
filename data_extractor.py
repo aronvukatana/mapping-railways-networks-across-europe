@@ -169,9 +169,9 @@ def start_and_monitor_tasks(tasks, max_concurrent=100, check_interval=60):
             status = task.status()['state']
             task_name = task.status()['description']
             if status == 'COMPLETED':
-                print(f"✓ Completed: {task_name}")
+                print(f"Completed: {task_name}")
             else:
-                print(f"✗ Failed: {task_name} ({status})")
+                print(f"Failed: {task_name} ({status})")
         
         active_tasks = still_active
 
